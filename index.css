@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+  body{
+    font-family: 'IM Fell English', serif;
+  }
+
+  .header{
+    display: block;
+    width: 1515px;
+    padding-bottom: 1010px;
+    position: relative;
+  }
+
+.header-img{
+  display: flex;
+  width: 1515px;
+  position: absolute;
+}  
+
+.header-title{
+  z-index: 100;
+  position: absolute;
+  padding-top: 378px;
+  padding-left: 331px;
+  font-size: 200px;
+  line-height: 254px;
+  color: #ffffff;
+}
+
+.text{
+  text-align: center;
+  padding-left: 117px;
+  padding-right: 116px;
+  padding-top: 178px;
+  padding-bottom: 212px;
+  font-size: 48px;
+  line-height: 61px;
+}
+
+.products-title{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 96px;
+  line-height: 122px;
+  color: #603900;
+  -webkit-text-stroke: 1px black;
+  margin-bottom: 179px;
+}
+
+.products{
+  display: inline-block;
+  width: 1515px;
+  height: 2920px;
+  background-color: #EFDECD;
+}
+
+.product-wrapper{
+  display: block;
+  
+}
+
+
+
+.product-desc{
+  
+  font-size: 32px;
+  line-height: 41px;
+  color: #603900;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.buy-link{
+  
+  width: 270px;
+  height: 87px;
+  background-color: #603900;
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size: 65px;
+  line-height: 82px;
+  text-align: center;
+}
+
+.second-product-wrapper{
+  display: block;
+}
+
+.contacts{
+  text-align: center;
+  height: 390px;
+  width: 1515px;
+  padding-top: 68px;
+  background-color: #603900;
+  color: #EFDECD;
+  font-size: 70px;
+  line-height: 89px;
+}
+
+.number{
+  display: inline;
+  font-size: 48px;
+  line-height: 61px;
+  color: #EFDECD;
+  padding-bottom: 80px;
+  padding-left: 200px;
+  padding-right: 241px;
+}
+
+.mail{
+  display: inline;
+  font-size: 48px;
+  line-height: 61px;
+  color: #EFDECD;
+  padding-bottom: 80px;
+  padding-right: 200px;
+}
